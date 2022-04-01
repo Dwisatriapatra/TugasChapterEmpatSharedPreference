@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeActivity">
+  <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:textSize="28sp"
+      android:textStyle="bold"
+      android:text="HOME"
+      android:id="@+id/home_text"
+      android:layout_centerHorizontal="true"
+      android:layout_gravity="center"
+      android:textColor="@color/black"
+      android:layout_marginBottom="10dp"/>
+  <TextView
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_below="@+id/home_text"
+      android:textSize="20sp"
+      android:id="@+id/result"/>
+  <Button
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="LOGOUT"
+      android:id="@+id/button_logout"
+      android:layout_alignParentBottom="true"
+      android:layout_marginBottom="10dp"
+      android:layout_centerHorizontal="true"/>
+</RelativeLayout>
